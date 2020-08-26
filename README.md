@@ -7,7 +7,7 @@ github_repo: TBD
 <blockquote class="blockquote">
     <p class="mb-0"><i>Oh, it is on, like a prawn who yawns at dawn.</i></p>
     <p style="text-align:right;">- Andy Bernard</p>
-    <center><img src="gifgenerator_images\prawnwhoridesatdawn.gif"></center>
+    <center><img src="gifgenerator_images/prawnwhoridesatdawn.gif"></center>
 </blockquote>
     
 
@@ -35,7 +35,7 @@ TV Show Name
 ...
 ```
 
-![folder structure](gifgenerator_images\folder_struct.gif)
+![folder structure](gifgenerator_images/folder_struct.gif)
 
 1. We don't really need any specific file nomenclature. Only that each season's folder has alphabetical video files and alphabetical subtitle files.
 2. Put all these season folders into one 'Sitcom Name' folder
@@ -48,7 +48,7 @@ The first cell in `PrepDB.ipynb` simply reads the names of these files. The rest
 
 3 episodes in the GIF above were about 45,000 rows/subtitles.
 
-![bq schema](gifgenerator_images\bq_schema.jpg) BigQuery table schema
+![](gifgenerator_images/bq_schema.jpg) BigQuery table schema
 
 
 ---
@@ -57,10 +57,10 @@ The first cell in `PrepDB.ipynb` simply reads the names of these files. The rest
 >`MakeGIF.ipynb`
 1. Just set the variable name `selected_dialogue` as the word/dialog you want to search for.
 2. You will be asked which dialog you want to base your GIF on.
-![dialog options](gifgenerator_images\dialog_options.jpg)
+![](gifgenerator_images/dialog_options.jpg)
 
 3. Based on your selection and its corresponding timestamps, a video is cut, the text is overlayed and the gif is saved.
-![generated GIF](gifgenerator_images\gif_gen.gif)
+![](gifgenerator_images/gif_gen.gif)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/btR2OAGXCCU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -70,11 +70,11 @@ The first cell in `PrepDB.ipynb` simply reads the names of these files. The rest
 
 Check out `jeevz.py` where I made a chat bot to ask for GIFs!
 
-![chat bot screenshot](gifgenerator_images\jeevz_chat_bot.jpeg)
+![](gifgenerator_images/jeevz_chat_bot.jpeg)
 
 I used [this](https://www.youtube.com/watch?v=5nhdxpoicW4) and [this](https://pypi.org/project/telegram-send/) to make the chatbot. You should probably write your own, mine breaks easily.
 
-![manure](gifgenerator_images\putmanuredown.gif)
+![](gifgenerator_images/putmanuredown.gif)
 
 ---
 
