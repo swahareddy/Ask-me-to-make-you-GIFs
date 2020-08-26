@@ -62,7 +62,7 @@ The first cell in `PrepDB.ipynb` simply reads the names of these files. The rest
 3. Based on your selection and its corresponding timestamps, a video is cut, the text is overlayed and the gif is saved.
 ![](gifgenerator_images/gif_gen.gif)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/btR2OAGXCCU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### https://www.youtube.com/embed/btR2OAGXCCU
 
 ---
 
