@@ -1,15 +1,4 @@
-# To add a new cell, type '# %%'
-# To add a new markdown cell, type '# %% [markdown]'
-# %%
-from IPython import get_ipython
-
-# %% [markdown]
-# ## Search and create GIF
-# %% [markdown]
-# ### Thoughts
-# 
-# * Don't just limit to one subtitle, but a set of adjacent ones should also be allowed
-# * Fuzzy search
+# Server script for the chatbot
 
 import os
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "C:\\tejas_gcp_projects\\maybe-well-do-something-d7263a30102e.json"
@@ -114,8 +103,6 @@ def generate_gif(pkey_selected):
     gif.ipython_display() 
 
 
-
-import gizoogle
 from bot import telegram_chatbot
 bot = telegram_chatbot("config.cfg")
 update_id = None
@@ -158,7 +145,7 @@ while True:
                 
                 i=1
                 list_options=list_subtitle_options(message)
-                print("These many disticnt messages "+str(len(list_options)))
+                print("These many distinct messages "+str(len(list_options)))
                 buffer=10
                 bot.send_message("There are "+str(len(list_options))+" matches found", from_)
                 while buffer<=len(list_options):

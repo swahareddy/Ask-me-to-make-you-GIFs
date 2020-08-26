@@ -4,12 +4,7 @@ title: Chatbot for your favorite GIFs
 github_repo: TBD
 ---
 
-<blockquote class="blockquote">
-    <p class="mb-0"><i>Oh, it is on, like a prawn who yawns at dawn.</i></p>
-    <p style="text-align:right;">- Andy Bernard</p>
-    <center><img src="gifgenerator_images\prawnwhoridesatdawn.gif"></center>
-</blockquote>
-    
+<img src="gifgenerator_images\prawnwhoridesatdawn.gif">
 
 ## Prepare the sitcom
 >`PrepDB.ipynb`

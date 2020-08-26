@@ -2,7 +2,7 @@ import requests
 import json
 import configparser as cfg
 
-
+#Contains the class with functions to communicate with telegram
 class telegram_chatbot():
 
     def __init__(self, config):
